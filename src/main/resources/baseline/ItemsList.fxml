@@ -20,7 +20,7 @@
          <children>
             <HBox spacing="8.0">
                <children>
-                  <RadioButton fx:id="showAllItemsRadioButton" mnemonicParsing="false" onAction="#selectItemsToShow" text="Show All Items">
+                  <RadioButton fx:id="showAllItemsRadioButton" mnemonicParsing="false" onAction="#selectItemsToShow" selected="true" text="Show All Items">
                      <toggleGroup>
                         <ToggleGroup fx:id="completedToggleGroup" />
                      </toggleGroup>
