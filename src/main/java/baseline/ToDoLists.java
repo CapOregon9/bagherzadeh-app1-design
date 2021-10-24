@@ -12,8 +12,11 @@ public class ToDoLists {
         return allLists;
     }
 
-    public void getList(String name) {
-        //uses passed in name to get item list
+    public ItemList getList(String name) {
+        for (ItemList list: allLists) {
+            //uses passed in name to get item list
+        }
+        return null;
     }
 
     public void setAllLists(List<ItemList> allLists) {
@@ -24,5 +27,10 @@ public class ToDoLists {
         for (ItemList list: allLists) {
             //remove list from all lists
         }
+    }
+
+    public void addList(String name) {
+        //add list from all lists
+        //uses passed in list name in Item List instance call
     }
 }

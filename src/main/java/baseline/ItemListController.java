@@ -34,7 +34,7 @@ public class ItemListController {
     private ToggleGroup completedToggleGroup;
 
     @FXML
-    private Button editSeIectedtemButton;
+    private Button editSelectedItemButton;
 
     @FXML
     private ListView<?> itemsListView;

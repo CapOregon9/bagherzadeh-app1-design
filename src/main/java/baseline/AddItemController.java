@@ -8,6 +8,10 @@ import javafx.scene.control.TextField;
 
 public class AddItemController {
 
+    private ToDoLists toDoLists;
+    private String listName;
+    private String itemName;
+
     @FXML
     private TextField newDateTextField;
 

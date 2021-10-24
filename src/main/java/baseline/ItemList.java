@@ -13,7 +13,7 @@ public class ItemList {
         this.listName = listName;
     }
 
-    public void addItem(String name, String newItemName, String newDescription, String newDate) {
+    public void addItem(String newItemName, String newDescription, String newDate) {
         //use name to add item from arraylist
     }
 
@@ -26,6 +26,7 @@ public class ItemList {
     }
 
     public void toggleCompleted(String name) {
+        //another form of setMethod
         //uses name to find item
         //toggle value of completed with get and set methods of it
     }

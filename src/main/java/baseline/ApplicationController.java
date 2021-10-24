@@ -50,7 +50,7 @@ public class ApplicationController {
 
     @FXML
     void loadDataFromFile(ActionEvent event) {
-        //create objects that store list information using JSON FIle
+        //create objects that store list information using JSON FIle by using load data scene
     }
 
     @FXML

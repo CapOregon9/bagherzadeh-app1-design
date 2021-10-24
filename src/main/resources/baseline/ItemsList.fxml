@@ -31,7 +31,7 @@
             <HBox alignment="CENTER" spacing="48.0">
                <children>
                   <CheckBox fx:id="completedCheckBox" mnemonicParsing="false" onAction="#changeCompletedState" text="Completed" />
-                  <Button fx:id="editSeIectedtemButton" mnemonicParsing="false" onAction="#editSelectedItem" text="Edit Selected Item" />
+                  <Button fx:id="editSelectedItemButton" mnemonicParsing="false" onAction="#editSelectedItem" text="Edit Selected Item" />
                   <Button fx:id="removeSelectedItemButton" mnemonicParsing="false" onAction="#removeSelectedItem" text="Remove Selected Item" />
                </children>
                <padding>
