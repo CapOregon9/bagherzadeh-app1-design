@@ -20,6 +20,6 @@
             <Tooltip text="Enter the relative path" />
          </tooltip>
       </TextField>
-      <Button fx:id="saveButton" mnemonicParsing="false" text="Save" />
+      <Button fx:id="saveButton" mnemonicParsing="false" onAction="#saveFile" text="Save" />
    </children>
 </VBox>
